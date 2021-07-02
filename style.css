@@ -1,9 +1,10 @@
+/*  -------header--------      */
 body{
     margin: 0%;
    background-color: black;
 }
 #cabecalho{
-    background-color: grey;
+    background-color: black;
 }
     #logo{
     width: 15%;
@@ -13,31 +14,19 @@ body{
     
 }
 
-
-footer{
-    font-family: Arial;
-    text-align: center;
-    background-color: white;
-    margin: 24px;
-    padding: 32px 0px 64px 64px;
-}
 h1{
     display: flex;
-
- color:black;
- padding: 20px;
- background-color: white;
- margin: 0;
- font-size: 90px;
-
-}
-
-main{
+    
+    color:black;
+    padding: 20px;
     background-color: white;
-    margin: 24px;
-    padding: 32px 0px 64px 64px;
+    margin: 0;
+    font-size: 90px;
 }
+/*------------header---------------*/
 
+
+/*-------------menu----------------*/
 nav ul{
     margin: 0%;
     font-size: 23px;
@@ -51,15 +40,112 @@ nav ul{
     font-family: Arial;
 }
 
-p{
-    text-align: center;
-}
 .secao-style{
-text-decoration: none;
-color: white;
-padding: 12px 30px 12px 30px;
-
+    border: 1px solid #FFFFFF;
+    
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px 12px 30px;
+    
 }
 .secao-style:hover{
     color: black;
+}
+/*------------menu---------------*/
+
+
+
+/*------------main---------------*/
+
+main{
+    background-color: white;
+    margin: 40px;
+    padding: 32px 0px 64px 64px;
+    
+}
+ #cinema-pisca-pisca{
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    font-size: 50px;
+    justify-content: center;
+    letter-spacing: 30px;
+   padding: 15px;
+   animation: pisca-pisca 1.2s cubic-bezier(0, 2.8, 1, 1.84) infinite;
+}
+
+@keyframes pisca-pisca{
+    0%{
+        color: rgb(72,72,72,1);
+        text-shadow: none;
+    }
+
+    40%{
+        color: rgb(72,72,72,1);
+        text-shadow: none;
+    }
+
+    100%{
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+    }
+}
+
+    ul li:nth-child(1){
+        animation-delay:0s 
+    }
+    ul li:nth-child(2)
+    {
+        animation-delay:2.5 
+    }
+    ul li:nth-child(3){
+        animation-delay:3.5 
+    }
+    ul li:nth-child(4){
+        animation-delay:4.5 
+    }
+    ul li:nth-child(5){
+        animation-delay:5.5 
+    }
+    ul li:nth-child(6){
+        animation-delay:6.6 
+    }
+
+
+
+    #filme-destaque{
+        background-color: rgb(48, 48, 48);
+        width: 1020px;
+        height: 420px;
+    }
+
+
+
+
+#foto-coringa{
+    
+    border: 20px dotted rgb(228, 196, 13);
+
+}
+
+
+
+
+
+
+
+/*-------------main--------------*/
+
+
+
+footer{
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 24px;
+    padding: 30px 64px 30px 64px;
+}
+
+mark{
+    background-color: rgb(204, 35, 35);
 }
