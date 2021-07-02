@@ -1,13 +1,15 @@
-/*  -------header--------      */
+/*-----------header--------*/
+
+
 body{
     margin: 0%;
    background-color: black;
 }
-#cabecalho{
-    background-color: black;
-}
+
     #logo{
-    width: 15%;
+    width: auto;
+    height: 100px;
+
     float: left;
     margin-left: 300px;
     margin-top: 7px;
@@ -16,18 +18,23 @@ body{
 
 h1{
     display: flex;
-    
+    height: auto;
     color:black;
     padding: 20px;
     background-color: white;
     margin: 0;
     font-size: 90px;
 }
-/*------------header---------------*/
+#espaco-da-foto{
+    width: 100%;
+}
+
+/*---------------------------------header-------------------------------*/
 
 
-/*-------------menu----------------*/
+/*----------------------------------menu--------------------------------*/
 nav ul{
+    width: 100%;
     margin: 0%;
     font-size: 23px;
     background-color: purple;
@@ -51,16 +58,17 @@ nav ul{
 .secao-style:hover{
     color: black;
 }
-/*------------menu---------------*/
+/*-----------------------------------menu--------------------------------*/
 
 
 
-/*------------main---------------*/
-
+/*-----------------------------------main-------------------------------*/
+/*----------Section---------*/
 main{
     background-color: white;
     margin: 40px;
     padding: 32px 0px 64px 64px;
+
     
 }
  #cinema-pisca-pisca{
@@ -72,6 +80,7 @@ main{
     letter-spacing: 30px;
    padding: 15px;
    animation: pisca-pisca 1.2s cubic-bezier(0, 2.8, 1, 1.84) infinite;
+   
 }
 
 @keyframes pisca-pisca{
@@ -117,6 +126,7 @@ main{
         background-color: rgb(48, 48, 48);
         width: 1020px;
         height: 420px;
+        
     }
 
 
@@ -125,6 +135,16 @@ main{
 #foto-coringa{
     
     border: 20px dotted rgb(228, 196, 13);
+   
+
+}
+/*-------section------*/
+
+/*-------Article------*/
+
+h2{
+font-size: 35px;
+margin-left: 40px;
 
 }
 
@@ -134,10 +154,11 @@ main{
 
 
 
-/*-------------main--------------*/
+/*-------Article------*/
+/*---------------------------------main-----------------------------*/
 
 
-
+/*--------------------------------footer------------------------------*/
 footer{
     font-family: Arial;
     text-align: center;
@@ -146,6 +167,3 @@ footer{
     padding: 30px 64px 30px 64px;
 }
 
-mark{
-    background-color: rgb(204, 35, 35);
-}
