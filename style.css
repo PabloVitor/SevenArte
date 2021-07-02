@@ -1,0 +1,65 @@
+body{
+    margin: 0%;
+   background-color: black;
+}
+#cabecalho{
+    background-color: grey;
+}
+    #logo{
+    width: 15%;
+    float: left;
+    margin-left: 300px;
+    margin-top: 7px;
+    
+}
+
+
+footer{
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+    margin: 24px;
+    padding: 32px 0px 64px 64px;
+}
+h1{
+    display: flex;
+
+ color:black;
+ padding: 20px;
+ background-color: white;
+ margin: 0;
+ font-size: 90px;
+
+}
+
+main{
+    background-color: white;
+    margin: 24px;
+    padding: 32px 0px 64px 64px;
+}
+
+nav ul{
+    margin: 0%;
+    font-size: 23px;
+    background-color: purple;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 50px;
+    font-family: Arial;
+}
+
+p{
+    text-align: center;
+}
+.secao-style{
+text-decoration: none;
+color: white;
+padding: 12px 30px 12px 30px;
+
+}
+.secao-style:hover{
+    color: black;
+}
