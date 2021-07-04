@@ -35,6 +35,7 @@ h1{
     background-color: white;
     margin: 0;
     font-size: 90px;
+    
 }
 
 /*---------------------------------header-------------------------------*/
@@ -44,7 +45,7 @@ h1{
 nav ul{
     
     margin: 0%;
-    font-size: 23px;
+    font-size: 24px;
     background-color: purple;
     list-style-type: none;
     display: flex;
@@ -52,12 +53,11 @@ nav ul{
     justify-content: space-around;
     padding-top: 20px;
     height: 50px;
-    font-family: Arial;
+    font-family: 'raleway';
 }
 
 .secao-style{
     border: 1px solid #FFFFFF;
-    
     text-decoration: none;
     color: white;
     padding: 12px 30px 12px 30px;
@@ -164,16 +164,26 @@ h2{
     font-size: 35px;
     margin-left: 40px;
     color: rgb(0, 102, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'raleway';
     font-weight: 400;
     text-align:center ;
 }
 h3{
     color: purple;
-    font-family: sans-serif;
+    font-family: 'raleway';
     font-size: 22px;
-    
 }
+
+h4{
+    margin: 33px 0px 0px 0px;
+    font-family: 'raleway';
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    height: 50px;
+    float: right;
+}
+
 #catalogo-filmes{
     text-align: center;
     margin-right: 10px;
@@ -185,11 +195,12 @@ p{
     border: solid 2px rgb(22, 61, 187);
     padding: 10px;
     border-radius: 10px;
-    ;
+    font-family: 'raleway';
+    font-weight: 600px;
 }
 
 
-.ilustracoes{
+.ilustracoes-index{
     width: auto;
     height: 200px;
     border-radius: 15px;
@@ -213,7 +224,6 @@ p{
 
 section p{
     text-align: justify;
-    font-family: sans-serif;
     font-size: 22px;
     color: rgb(0, 0, 0);
     margin:0
