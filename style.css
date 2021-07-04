@@ -12,11 +12,19 @@ body{
 #logo{
     width: auto;
     height: 100px;
-    float: left;
+    float: right;
     margin-left: 400px;
-    margin-top: 7px;
+    margin-top: 20px;
     
 }
+#logo-espaco{
+    background-color: black;
+    float: left;
+    padding-left: 100px;
+    height: 100%;
+    width: 360px;
+}
+    
 
 h1{
     display: flex;
@@ -28,10 +36,7 @@ h1{
     margin: 0;
     font-size: 90px;
 }
-/*
-header{
-    width: 100%;
-}
+
 /*---------------------------------header-------------------------------*/
 
 
@@ -70,10 +75,22 @@ nav ul{
 main{
     background-color: white;
     
-    padding: 1px 70px 0px 70px;
+
 
     
 }
+
+#corpo-da-pagina{
+    padding: 0px 70px 0px 70px;
+
+
+}
+#moldura-coringa{
+    padding: 80px;
+}
+
+
+
  #cinema-pisca-pisca{
     display: flex;
     margin: 0;
@@ -127,9 +144,7 @@ main{
 
     #filme-destaque{
         background-color: rgb(48, 48, 48);
-        padding-right: 40px;
-        margin: 80px;
-        
+        padding-right: 40px;        
     }
 
 
@@ -280,6 +295,6 @@ footer{
     font-family: Arial;
     text-align: center;
     background-color: white;
-    padding: 30px 260px 1px 260px;
+    padding: 30px 350px 1px 350px;
 }
 
