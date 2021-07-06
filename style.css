@@ -120,25 +120,25 @@ main{
     }
 }
 
-    ul li:nth-child(1){
-        animation-delay:0s 
-    }
-    ul li:nth-child(2)
-    {
-        animation-delay:2.5 
-    }
-    ul li:nth-child(3){
-        animation-delay:3.5 
-    }
-    ul li:nth-child(4){
-        animation-delay:4.5 
-    }
-    ul li:nth-child(5){
-        animation-delay:5.5 
-    }
-    ul li:nth-child(6){
-        animation-delay:6.6 
-    }
+ul li:nth-child(1){
+        animation-delay:0s
+}
+ul li:nth-child(2){
+    
+        animation-delay:2.5
+}
+ul li:nth-child(3){
+        animation-delay:3.5
+}
+ul li:nth-child(4){
+        animation-delay:4.5
+}
+ul li:nth-child(5){
+        animation-delay:5.5
+}
+ul li:nth-child(6){
+        animation-delay:6.6
+}
 
 
 
@@ -171,7 +171,8 @@ h2{
 h3{
     color: purple;
     font-family: 'raleway';
-    font-size: 22px;
+    font-size: 30px;
+    margin: 0px;
 }
 
 h4{
@@ -180,7 +181,7 @@ h4{
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 1.2px;
-    height: 50px;
+    height: 120px;
     float: right;
 }
 
@@ -197,6 +198,7 @@ p{
     border-radius: 10px;
     font-family: 'raleway';
     font-weight: 600px;
+    margin: 0px;
 }
 
 
@@ -235,41 +237,61 @@ section a{
 }
 
 
-.informacao-idade-18{
+.movie-tag-idade-18{
     background-color: black; 
     border-radius: 4px;
     padding: 4px; 
 }
-.informacao-idade-16{
+.movie-tag-idade-16{
     background-color: red;
     border-radius: 4px;
     padding: 4px;  
 }
-.informacao-idade-14{
+.movie-tag-idade-14{
     background-color: #f6962d; 
     border-radius: 4px;
     padding: 4px;
 }
-.informacao-idade-12{
+.movie-tag-idade-12{
     background-color: rgb(255, 251, 0);
     border-radius: 4px;
     padding: 4px;;
 }
-.informacao-dub{
+.movie-tag-dub{
     background-color: #7a1600;
     border-radius: 4px;
     padding: 4px;
 }
-.informacao-idade-audio-container{
+
+.movie-tag-tempo{
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    margin-left: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.movie-tag-genero{
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 5px;
+}
+
+
+.inicialpage-movie-tag{
     text-align: center;
     font-family: sans-serif;
     color: white;
     font-weight: 800;
     font-size: 12px;
-    border-radius: 4px;
-    padding: 4px;
+    padding: 5px;
 }
+
+
 /*-------Em Exibição------*/
+
 
 /*----------Em Breve---------*/
 .catalogo-em-breve{
@@ -278,27 +300,12 @@ section a{
     padding-bottom: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*----------Em Breve---------*/
 .centralizar{
     text-align: center;
 }
 
 /*---------------------------------main-----------------------------*/
-
 
 /*--------------------------------footer------------------------------*/
 footer{
