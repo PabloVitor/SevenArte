@@ -8,6 +8,16 @@ body{
 }
 
 
+.container-movie-tag-titulo{
+    float: right;
+    
+    font-family: sans-serif;
+    
+    font-weight: 700;
+    font-size: 15px;
+    padding: 4px;
+}
+
 
 #logo{
     width: auto;
@@ -140,13 +150,19 @@ ul li:nth-child(6){
         animation-delay:6.6
 }
 
+.poster-e-titulo{
+    float: left;
+    padding-top: 280px;
+    padding-left: 100px;
+    color: white;
+    font-size: 25px;
+}
 
 
-    #filme-destaque{
-        background-color: rgb(48, 48, 48);
-        padding-right: 40px;        
-    }
-
+#filme-destaque{
+    background-color: rgb(48, 48, 48);
+    padding-right: 40px;        
+}   
 
 
 
@@ -201,6 +217,14 @@ p{
     margin: 0px;
 }
 
+
+.ilustracoes-paginas{
+    width: auto;
+    height: 260px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .ilustracoes-index{
     width: auto;
