@@ -1,11 +1,7 @@
-.ilustracoes-paginas{
-    width: auto;
-    height: 260px;
-    border-radius: 7px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+.Corpo-da-pagina-dos-filmes{
+    padding: 10px 0px 0px 70px;
 
+}
 #container-movie-tag-titulo{
     float: right;
     
@@ -16,6 +12,15 @@
     padding: 4px;
 }
 
+.ilustracoes-paginas{
+    width: auto;
+    height: 260px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 #logo{
     width: auto;
     height: 100px;
@@ -25,6 +30,7 @@
     
 }
 
+
 #logo-espaco{
     background-color: black;
     float: left;
@@ -32,22 +38,16 @@
     height: 100%
 }
 
+
 #foto-de-fundo{
     background-image: url(../../img/JohnWick/John-Wick-background-img.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 490px;
     width: auto;
-  
+    margin-bottom: 100px;
 }
 
-iframe{
-    border-radius: 15px;
-}
-
-#video{
-    display: flex;
-}
 
 .poster-e-titulo{
     float: left;
