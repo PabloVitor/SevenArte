@@ -1,4 +1,4 @@
-/*-----------header--------*/
+
 
 
 body{
@@ -7,6 +7,21 @@ body{
    
 }
 
+#catalogo-filmes{
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.catalogo-em-breve{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.centralizar{
+    text-align: center;
+}
 
 .container-movie-tag-titulo{
     float: right;
@@ -18,89 +33,13 @@ body{
     padding: 4px;
 }
 
-
-#logo{
-    width: auto;
-    height: 100px;
-    float: right;
-    margin-top: 20px;
-    
-}
-#logo-espaco{
-    background-color: black;
-    float: left;
-    padding-left: 100px;
-    height: 100%;
-    width: 360px;
-}
-    
-
-h1{
-    display: flex;
-    width: auto;
-    height: auto;
-    color:black;
-    padding: 20px;
-    background-color: white;
-    margin: 0;
-    font-size: 90px;
-    
-}
-
-/*---------------------------------header-------------------------------*/
-
-
-/*----------------------------------menu--------------------------------*/
-nav ul{
-    
-    margin: 0%;
-    font-size: 24px;
-    background-color: purple;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 20px;
-    height: 50px;
-    font-family: 'raleway';
-}
-
-.secao-style{
-    border: 1px solid #FFFFFF;
-    text-decoration: none;
-    color: white;
-    padding: 12px 30px 12px 30px;
-    
-}
-.secao-style:hover{
-    color: black;
-}
-/*-----------------------------------menu--------------------------------*/
-
-
-
-/*-----------------------------------main-------------------------------*/
-/*----------Section---------*/
-main{
-    background-color: white;
-    
-
-
-    
-}
-
 #corpo-da-pagina{
     padding: 0px 70px 0px 70px;
 
 
 }
-#moldura-coringa{
-    padding: 80px;
-}
-
-
-
- #cinema-pisca-pisca{
+/*-------------------Não, o pisca-pisca não funciona, não sei por quê. Deixei aí.-----------------------/* 
+#cinema-pisca-pisca{
     display: flex;
     margin: 0;
     list-style-type: none;
@@ -148,15 +87,7 @@ ul li:nth-child(5){
 ul li:nth-child(6){
         animation-delay:6.6
 }
-
-.poster-e-titulo{
-    float: left;
-    padding-top: 280px;
-    padding-left: 100px;
-    color: white;
-    font-size: 25px;
-}
-
+------------------------------------------------------------------*/
 
 #filme-destaque{
     background-color: rgb(48, 48, 48);
@@ -172,9 +103,27 @@ ul li:nth-child(6){
     height: 100%;
 
 }
-/*---------section--------*/
 
-/*---------Filmes---------*/
+
+footer{
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+    padding: 30px 350px 1px 350px;
+    margin: 0px !important;
+}
+
+h1{
+    display: flex;
+    width: auto;
+    height: auto;
+    color:black;
+    padding: 20px;
+    background-color: white;
+    margin: 0;
+    font-size: 90px;
+    
+}
 h2{
     font-size: 35px;
     margin-left: 40px;
@@ -202,20 +151,13 @@ h4{
     float: right;
 }
 
-#catalogo-filmes{
+.inicialpage-movie-tag{
     text-align: center;
-    margin-right: 10px;
-    margin-bottom: 50px;
-}
-
-p{
-    background-color: rgba(220, 220, 220, 0.671);
-    border: solid 2px rgb(22, 61, 187);
-    padding: 10px;
-    border-radius: 10px;
-    font-family: 'raleway';
-    font-weight: 600px;
-    margin: 0px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 5px;
 }
 
 
@@ -236,32 +178,31 @@ p{
 }
 
 
-/*--------Filmes----------*/
 
-/*-------Em Exibição------*/
 
-.posters{
-    padding: 15px;
-    margin: 10px 30px 10px;
-    display: flex;
-    background-color: rgb(233, 233, 233);
-    border:solid 1px rgb(236, 236, 236);
-    justify-content: center;
+#logo{
+    width: auto;
+    height: 100px;
+    float: right;
+    margin-top: 20px;
+    
+}
+#logo-espaco{
+    background-color: black;
+    float: left;
+    padding-left: 100px;
+    height: 100%;
+    width: 360px;
 }
 
-section p{
-    text-align: justify;
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    margin:0
-
-}
-section a{
-    margin-top: 10px;
-    margin-bottom: 10px;
+main{
+    background-color: white;   
 }
 
 
+#moldura-coringa{
+    padding: 80px;
+}
 .movie-tag-idade-18{
     background-color: black; 
     border-radius: 4px;
@@ -305,40 +246,83 @@ section a{
 }
 
 
-.inicialpage-movie-tag{
-    text-align: center;
-    font-family: sans-serif;
-    color: white;
-    font-weight: 800;
-    font-size: 12px;
-    padding: 5px;
-}
 
-
-/*-------Em Exibição------*/
-
-
-/*----------Em Breve---------*/
-.catalogo-em-breve{
+nav ul{
+    
+    margin: 0%;
+    font-size: 24px;
+    background-color: purple;
+    list-style-type: none;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 50px;
+    font-family: 'raleway';
+}
+
+
+
+
+.poster-e-titulo{
+    float: left;
+    padding-top: 280px;
+    padding-left: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.posters{
+    padding: 15px;
+    margin: 10px 30px 10px;
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    border:solid 1px rgb(236, 236, 236);
     justify-content: center;
-    padding-bottom: 20px;
-}
-
-/*----------Em Breve---------*/
-.centralizar{
-    text-align: center;
 }
 
 
-/*---------------------------------main-----------------------------*/
-
-/*--------------------------------footer------------------------------*/
-footer{
-    font-family: Arial;
-    text-align: center;
-    background-color: white;
-    padding: 30px 350px 1px 350px;
-    margin: 0px !important;
+p{
+    background-color: rgba(220, 220, 220, 0.671);
+    border: solid 2px rgb(22, 61, 187);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'raleway';
+    font-weight: 600px;
+    margin: 0px;
 }
+
+
+
+.secao-style{
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px 12px 30px;
+    
+    
+}
+.secao-style:hover{
+    color: black;
+    cursor: pointer;
+}
+
+section p{
+    text-align: justify;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin:0
+
+}
+section a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
