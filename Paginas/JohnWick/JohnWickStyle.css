@@ -49,7 +49,7 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     height: 680px;
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
 
 }
 
