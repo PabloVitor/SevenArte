@@ -1,0 +1,22 @@
+
+h1{
+    color: rgb(252, 229, 29);
+    background-color: black;
+    
+}
+
+#enxurrada-h1{
+    background-color: black;
+}
+#enxurrada-logo{
+    float: left;
+
+}
+p{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+#corpo-da-pagina{
+    height: 300px;
+}
