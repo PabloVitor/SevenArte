@@ -1,0 +1,328 @@
+
+
+
+body{
+    margin: 0%;
+   background-color: black;
+   
+}
+
+#catalogo-filmes{
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.catalogo-em-breve{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.centralizar{
+    text-align: center;
+}
+
+.container-movie-tag-titulo{
+    float: right;
+    
+    font-family: sans-serif;
+    
+    font-weight: 700;
+    font-size: 15px;
+    padding: 4px;
+}
+
+#corpo-da-pagina{
+    padding: 0px 70px 0px 70px;
+
+
+}
+#cinema-pisca-pisca{
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    font-size: 50px;
+    justify-content: center;
+    letter-spacing: 30px;
+    padding: 20px 0px 20px 40px;
+    animation: pisca-pisca 1.2s cubic-bezier(0, 2.8, 1, 1.84) infinite;
+    
+}
+/*-------------Não, o pisca-pisca por letras não funciona, não sei por quê. Deixei aí.----------------*/
+
+@keyframes pisca-pisca{
+    0%{
+        color: rgb(72,72,72,1);
+        text-shadow: none;
+    }
+
+    40%{
+        color: rgb(72,72,72,1);
+        text-shadow: none;
+    }
+
+    100%{
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+    }
+}
+
+ul li:nth-child(1){
+        animation-delay:0s
+}
+ul li:nth-child(2){
+    
+        animation-delay:2.5
+}
+ul li:nth-child(3){
+        animation-delay:3.5
+}
+ul li:nth-child(4){
+        animation-delay:4.5
+}
+ul li:nth-child(5){
+        animation-delay:5.5
+}
+ul li:nth-child(6){
+        animation-delay:6.6
+}
+/*--------------------------------------------------------------------------------*/
+
+#filme-destaque{
+    background-color: rgb(48, 48, 48);
+    padding-right: 40px;        
+}   
+
+
+
+#foto-coringa{
+    
+    border: 20px dotted rgb(228, 196, 13);
+    width: 100%;
+    height: 100%;
+
+}
+
+
+footer{
+    font-family: Arial;
+    text-align: center;
+    background-color: white;
+    padding: 30px 350px 1px 350px;
+    margin: 0px !important;
+}
+
+h1{
+    display: flex;
+    width: auto;
+    height: auto;
+    color:black;
+    padding: 20px;
+    background-color: white;
+    margin: 0;
+    font-size: 90px;
+    
+}
+h2{
+    font-size: 35px;
+    margin-left: 40px;
+    color: rgb(0, 102, 255);
+    font-family: 'raleway';
+    font-weight: 400;
+    text-align:center ;
+}
+h3{
+    color: purple;
+    font-family: 'raleway';
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+h4{
+    margin: 33px 0px 0px 0px;
+    font-family: 'raleway';
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    height: 120px;
+    float: right;
+}
+
+.inicialpage-movie-tag{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+.ilustracoes-paginas{
+    width: auto;
+    height: 260px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ilustracoes-index{
+    width: auto;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+#logo{
+    width: auto;
+    height: 100px;
+    float: right;
+    margin-top: 20px;
+    
+}
+#logo-espaco{
+    background-color: black;
+    float: left;
+    padding-left: 100px;
+    height: 100%;
+    width: 360px;
+}
+
+main{
+    background-color: white;   
+}
+
+
+#moldura-coringa{
+    padding: 80px;
+}
+.movie-tag-idade-18{
+    background-color: black; 
+    border-radius: 4px;
+    padding: 4px; 
+}
+.movie-tag-idade-16{
+    background-color: red;
+    border-radius: 4px;
+    padding: 4px;  
+}
+.movie-tag-idade-14{
+    background-color: #f6962d; 
+    border-radius: 4px;
+    padding: 4px;
+}
+.movie-tag-idade-12{
+    background-color: rgb(255, 251, 0);
+    border-radius: 4px;
+    padding: 4px;;
+}
+.movie-tag-dub{
+    background-color: #7a1600;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.movie-tag-tempo{
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    margin-left: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.movie-tag-genero{
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 5px;
+}
+
+
+
+nav ul{
+    
+    margin: 0%;
+    font-size: 24px;
+    background-color: purple;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 50px;
+    font-family: 'raleway';
+}
+
+
+
+
+.poster-e-titulo{
+    float: left;
+    padding-top: 280px;
+    padding-left: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.posters{
+    padding: 15px;
+    margin: 10px 30px 10px;
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    border:solid 1px rgb(236, 236, 236);
+    justify-content: center;
+}
+
+
+p{
+    background-color: rgba(220, 220, 220, 0.671);
+    border: solid 2px rgb(22, 61, 187);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'raleway';
+    font-weight: 600px;
+    margin: 0px;
+}
+
+
+
+.secao-style{
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    color: white;
+    padding: 12px 30px 12px 30px;
+    
+    
+}
+.secao-style:hover{
+    color: black;
+    cursor: pointer;
+}
+
+section p{
+    text-align: justify;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin:0
+
+}
+section a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
