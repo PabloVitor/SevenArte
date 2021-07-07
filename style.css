@@ -23,7 +23,6 @@ body{
     width: auto;
     height: 100px;
     float: right;
-    margin-left: 400px;
     margin-top: 20px;
     
 }
@@ -189,6 +188,8 @@ h3{
     font-family: 'raleway';
     font-size: 30px;
     margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 h4{
@@ -329,6 +330,7 @@ section a{
     text-align: center;
 }
 
+
 /*---------------------------------main-----------------------------*/
 
 /*--------------------------------footer------------------------------*/
@@ -337,5 +339,6 @@ footer{
     text-align: center;
     background-color: white;
     padding: 30px 350px 1px 350px;
+    margin: 0px !important;
 }
 
